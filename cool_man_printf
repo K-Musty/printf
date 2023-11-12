@@ -1,0 +1,49 @@
+.TH man 1 "12 Novenber 2023" "_printf functiion man page"
+.SH NAME
+_printf - formatted output similar to printf
+.SH SYNOPSIS
+_printf prints multiple outputs of data
+.SH DESCRIPTION
+_printf though limited compared to printf from the `stdio` prints outputs in accordance to different formats of different data type
+.SH OPTIONS
+.TP 
+%c
+prints a character
+.TP
+%s
+prints a string
+.TP
+%%
+prints a percentage symbol
+.TP
+%d
+prints decimal
+.TP
+%i
+prints integer number
+.TP
+%b
+prints a binary representation
+.TP
+%p
+prints a pointer
+.TP
+%x
+prints a hexadecimal representation
+.TP
+%r
+prints string in reverse
+.TP
+%u
+prints a unsigned integer
+.TP
+%o
+prints an octal representation
+.TP
+%X
+prints a hexadecimal figure in Uppercase 
+.SH AUTHOR
+Abdulrahman Kalli Mustapha & Judith Ogbole
+.SH SEE ALSO
+I printf(3)
+
