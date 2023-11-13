@@ -1,0 +1,49 @@
+man(1)                      General Commands Manual                     man(1)
+
+
+
+NNAAMMEE
+       _printf - formatted output similar to printf
+
+SSYYNNOOPPSSIISS
+       _printf prints multiple outputs of data
+
+DDEESSCCRRIIPPTTIIOONN
+       _printf  though limited compared to printf from the `stdio` prints out-
+       puts in accordance to different formats of different data type
+
+OOPPTTIIOONNSS
+       %c     prints a character
+
+       %s     prints a string
+
+       %%     prints a percentage symbol
+
+       %d     prints decimal
+
+       %i     prints integer number
+
+       %b     prints a binary representation
+
+       %p     prints a pointer
+
+       %x     prints a hexadecimal representation
+
+       %r     prints string in reverse
+
+       %u     prints a unsigned integer
+
+       %o     prints an octal representation
+
+       %X     prints a hexadecimal figure in Uppercase
+
+AAUUTTHHOORR
+       Abdulrahman Kalli Mustapha
+
+SSEEEE AALLSSOO
+       I printf(3)
+
+
+
+
+_printf functiion man page     12 Novenber 2023                         man(1)
