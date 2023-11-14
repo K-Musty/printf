@@ -21,5 +21,5 @@ int _cool_printf_str(va_list arr)
 		lens++;
 	}
 
-	return lens;
+	return (lens);
 }

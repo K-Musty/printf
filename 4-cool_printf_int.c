@@ -22,7 +22,7 @@ int _cool_printf_int(va_list arr)
 	if (num == 0)
 	{
 		_putchar('0');
-		return 1;
+		return (1);
 	}
-	return lens;
+	return (lens);
 }

@@ -28,5 +28,5 @@ int _cool_printf_char(va_list arr);
 int _cool_printf_str(va_list arr);
 int _cool_printf_int(va_list arr);
 int _cool_printf_perc(va_list arr);
-unsigned int _ident(const char *format, va_list arr);
+int _ident(const char *format, va_list arr);
 #endif
